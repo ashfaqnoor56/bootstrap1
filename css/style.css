@@ -26,6 +26,9 @@
 }
 .bg{background-color: #1abc9c;}
 .abt{font-size: 60px;}
+.but{
+    cursor: no-drop !important;
+}
 
 /* input[type=text] {
     width: 100%;
@@ -86,4 +89,25 @@
     .aaa {width: 100%!important;}
     .navbar.bg-dark, .navbar.customNav {height: unset;position: relative;}
 
+}
+@media (max-width:568px) {
+    .abt{
+        font-size: 30px !important;
+        margin-top: 10px !important;
+    }
+}
+@media (max-width:568px) {
+    #about{
+        margin-top: 50px;
+    }
+}
+@media (max-width:568px) {
+    .sec1{
+        font-size: 30px;
+    }
+}
+@media (max-width:500px) {
+    .roles{
+        font-size: 15px !important;
+    }
 }
